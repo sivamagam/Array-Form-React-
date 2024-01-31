@@ -44,16 +44,10 @@ function App() {
   }
 
   const handleSave = () => {
-    if (editIndex !== null) {
-      const updatedTableArray = [...tableform.detailsarray];
-      updatedTableArray[editIndex] = form.detailsarray[0];
-      setTableForm({ ...tableform, detailsarray: updatedTableArray });
-    } else {
       setTableForm({
         ...tableform,
         detailsarray: [...tableform.detailsarray, ...form.detailsarray]
       });
-    }
     handleCloseModal();
   };
 
