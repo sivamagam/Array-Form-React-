@@ -1,0 +1,52 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-row-btn,
+.delete-row-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-row-btn:hover,
+.delete-row-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-row-btn {
+  background-color: #dc3545;
+}
+
+.delete-row-btn:hover {
+  background-color: #c82333;
+}
